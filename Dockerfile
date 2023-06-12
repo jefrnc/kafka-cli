@@ -11,7 +11,7 @@ RUN apt-get update && \
 RUN apt-get install -y awscli
 
 # Instalar Kafka
-RUN wget https://downloads.apache.org/kafka/2.8.0/kafka_2.12-3.4.1.tgz && \
+RUN wget https://downloads.apache.org/kafka/3.4.1/kafka_2.12-3.4.1.tgz && \
     tar -xzf kafka_2.12-3.4.1.tgz && \
     rm kafka_2.12-3.4.1.tgz
 
